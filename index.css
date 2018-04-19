@@ -1,0 +1,632 @@
+:root{
+font-size: 20px;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex;
+    flex-direction: column;
+    margin:1vw;
+}
+
+.container .banner{
+	font-family: 'Niconne', cursive;
+	background-color: #323232;
+	color: #FFFFFF;
+	border-radius: 10px;
+	margin-top: 1vw;
+	padding: 5vw;
+	border: 2px solid #070000;
+	box-shadow: 0px 3px 20px 2px #E55B5B;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.header1{
+	font-size: 10em;
+	align-self: center;
+}	
+
+.header{
+	font-family: 'Carter One', cursive;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.my_image  img{
+	width: 100%;
+	height: auto;
+	border-radius: 3%;
+}
+
+.container .about_me button {
+	font: 1rem 'Norican', cursive;
+    background-color: #EC7063;
+    border:none;
+    border-radius: 5px;
+    color: #17202A;
+     letter-spacing: 8px;
+    margin-top: 2vh;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: box-shadow 0.3s linear 0.1s;
+}
+
+.container .about_me button:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0 #4D5656;
+}
+
+.container .para_font{
+	font: 2rem'Cormorant Garamond', serif;
+	color: #C0392B;
+	padding:2vw;
+}
+
+.container .about_me{
+font: 2rem'Cormorant Garamond', serif;
+padding: 5% 20% 20% 25%;
+color: #C0392B;
+background-image: url("about_me_image.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.container .my_tech_page{
+	display: flex;
+	flex-wrap: wrap;
+	background-color:#F9EBEA  ;
+}
+
+.my_tech_page ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.my_tech_page h1{
+	font-family:'Carter One', cursive;
+	color: #922B21;
+}
+
+.my_tech_page li{
+ padding: 3vh;
+ margin:1vh;
+ }
+
+.my_tech_page li:hover{
+	cursor: pointer;
+	background-color: #F5B7B1;
+	border-radius: 10px;
+}
+
+.my_tech_page p{
+	font: 1.2em 'Cormorant Garamond', serif;
+	
+}
+
+.my_tech_page .icon img{
+	float: right;
+	height:5vh;
+	width:3vw;
+}
+
+.my_tech_page .icon img:hover{
+	cursor: help;
+	box-shadow: 0px 3px 10px 2px #707B7C;
+
+}
+
+.my_tech_page h3 {
+  font: 1.5em 'Norican', cursive;
+  color: #922B21;
+}
+
+.container .my_exp{
+	background-color: #D0D3D4;
+		display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	background-image: url("my_exp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 3vw;
+}
+
+.container .my_exp h1{
+	text-align: center;
+	font-family: 'Carter One', cursive;
+	color: #C0392B;
+}
+
+.container .my_exp .resp{
+	display: flex;
+	flex-direction: row;
+	margin: 2vh;
+}
+
+.my_exp .resp .heading{
+	font: 1.5em 'Norican', cursive;
+	color: #C0392B;
+	border: 12px inset #CB4335;
+	margin: 2vw;
+	padding:1vw;
+	box-shadow: 0px 3px 20px 2px #000000;
+	width: 50vw;
+	height: 40vh;
+}
+
+.my_exp .resp .para_font p{
+	color:#CA4336;
+	word-wrap: break-word;
+
+}
+
+.container .my_project {
+	background-image: url("about_me_image.jpg");
+	background-size: cover;
+}
+
+.container .my_project h1{
+	text-align: center;
+	font-family: 'Carter One', cursive;
+	color: #C0392B;
+}
+
+.container .my_project .my_work_image{
+	display: flex;
+	flex-direction: row;
+	justify-content:center;
+	margin:5vh;
+	align-items: baseline;
+}
+
+	
+.my_work_image .my_work img{
+	width:20vw;
+    border-radius: 10px;
+}
+
+.my_work_image .my_work_2 img{
+	width:25vw;
+    border-radius: 10px;
+}
+
+.my_work_image img:hover{
+box-shadow: 0px 3px 20px 2px #000000;
+}
+
+.icon_group .icon:hover{
+box-shadow: 0px 3px 20px 2px #000000;
+}
+
+@media screen and (min-width: 1001px){
+
+    .container .banner {
+        display:flex;
+            }
+
+    .header1{
+    	font-size: 4vw;
+    }
+
+    .header{
+    font-size: 1.5vw;	
+    }
+
+    .about_me .para_font{
+    	font-size: 2vw;
+    }
+
+    .container .about_me button{
+	font-size: 1vw;
+    }
+
+   .my_exp .resp{
+	display: flex;
+	flex-direction: row;
+    } 
+
+    .my_exp .resp .heading{
+	font-size: 1vw;
+	border: 0.5vw inset #CB4335;
+    }
+
+    .my_exp .resp .para .para_font{
+	font-size: 2vw;
+	}
+
+    .container .my_tech_page .list_items{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+    }
+
+    .my_tech_page .list_items h3{
+	padding: 8vh 20vw 0 0; 
+	font-size: 2.5vw;
+    }
+
+    .my_tech_page .icon img{
+
+	width:3vw;
+	height:auto;
+	}
+
+    .my_tech_page .para_font{
+	font-size: 2vw;
+	padding: 0.5vw;
+	}
+
+	.container .my_project{
+	display: flex;
+	flex-direction: column;
+	}
+
+	.my_project .icon_group img{
+	height: auto;
+	width: 4vw;
+	padding: 1vw;
+	margin: 4vh;
+	}
+
+  	.my_project .para_font{
+	font-size: 2vw;
+	padding: 5vw;	
+	}
+
+	.container .my_project  h1{
+	font-size: 2vw;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1000px){
+
+    .container .banner {
+        display:flex;
+     }
+
+    .header1{
+    	font-size: 6vw;
+    }
+
+    .header{
+    font-size: 2vw;	
+    }
+
+    .about_me .para_font{
+    	font-size: 3vw;
+    }
+
+    .container .about_me button{
+	font-size: 1.2vw;
+	}
+
+	.my_exp .resp{
+	display: flex;
+	flex-wrap: wrap;
+	} 
+
+	.my_exp .resp .heading{
+	font-size: 2vw;
+	border: 0.5vw inset #CB4335;
+	width: 80vw;
+	height: auto;
+	}
+
+	.my_exp .resp .para .para_font{
+	font-size: 3vw;
+	}
+
+	.container .my_tech_page .list_items{
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+
+	.my_tech_page .list_items h3{
+	padding: 8vh 20vw 0 0; 
+	font-size: 3vw;
+	}
+
+
+	.my_tech_page .icon img{
+	width:3vw;
+	height:auto;
+	}
+
+	.my_tech_page .para_font{
+	font-size: 3vw;
+	padding: 2vw;
+	}
+
+	.container .my_project{
+	display: flex;
+	flex-direction: column;
+
+	}
+
+	.container .my_project button {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.container .my_project .icon_group img{
+	height: auto;
+	width: 5vw;
+	padding: 1vw;
+	}
+
+	.my_project .para_font{
+	font-size: 3vw;
+	padding: 5vw;	
+	}
+
+	.container .my_project  h1{
+	font-size: 4.5vw;
+	}
+
+	.container .my_project .my_work_image{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 5vh;
+	background-color: #B49F9D;
+	}
+
+	.my_work_image .my_work img{
+	width: 100%;
+	height: auto;
+	margin-top: 2vh;
+	}
+
+	.my_work_image .my_work_2 img{
+	width: 100%;
+	height: auto;
+	margin-top: 5vh;
+	}
+
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .container .banner {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+    	font-size: 6vw;
+    }
+
+    .header{
+    font-size: 2vw;	
+    }
+
+    .about_me .para_font{
+    	font-size: 4vw;
+    }
+
+    .container .about_me button{
+	font-size: 2vw;
+	}
+
+	.my_tech_page .my_list_image img{
+	width: 100%;
+	height: auto;
+	}
+
+	.my_tech_page h3{
+	font-size: 6vw;
+	}
+
+	.my_tech_page .icon img{
+	width:5vw;
+	height:auto;
+	}
+
+	.my_tech_page .para_font{
+	font-size: 4vw;
+	padding: 2vw;
+	}
+
+	.my_exp .resp{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	} 
+
+	.my_exp .resp .heading{
+	font-size: 2vw;
+	border: 0.8vw inset #CB4335;
+	margin: 5vw;
+	width: 70vw;
+	height: auto;
+	}
+
+	.my_exp .resp .para .para_font{
+	font-size: 4vw;
+	padding: 5vw;
+	}
+
+	.container .my_project{
+	display: flex;
+	flex-direction: column;
+	}
+
+	.container .my_project .icon_group img{
+	height: auto;
+	width: 8vw;
+	padding: 1vw;
+	}
+
+	.my_project .para_font{
+	font-size: 4vw;
+	padding: 5vw;	
+	}
+
+	.container .my_project  h1{
+	font-size: 6vw;
+	}
+	
+	.container .my_project .my_work_image{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 2vh;
+	background-color: #B49F9D;
+	}
+
+	.my_work_image .my_work img{
+	width: 100%;
+	height: auto;
+	margin-top: 2vh;
+	}
+
+	.my_work_image .my_work_2 img{
+	width: 100%;
+	height: auto;
+	margin-top: 5vh;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+    .container .banner {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+    	font-size: 8vw;
+    }
+
+    .header{
+    font-size: 3vw;	
+    }
+
+     .about_me .para_font{
+    	font-size: 6vw;
+    }
+
+    .container .about_me button{
+	font-size: 3vw;
+	}
+
+	.container .my_tech_page{
+	display: flex;
+	flex-direction: column;
+	}	
+
+	.my_tech_page .my_list_image img{
+	width: 100%;
+	height: auto;
+	}
+
+	.my_tech_page h3 {
+	font-size: 6vw;
+	}
+
+	.my_tech_page h1{
+	font-size: 6vw;
+	}
+
+	.my_tech_page .icon img{
+	width:5vw;
+	height:auto;
+	}
+
+	.my_tech_page .para_font{
+	font-size: 6vw;
+	padding: 2vw;
+	}
+
+    .my_exp .resp{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	} 
+
+	.my_exp .resp .heading{	
+	font-size: 3vw;
+	border: 1vw inset #CB4335;
+	margin: 3vh;
+	width: 70vw;
+	height: auto;
+	}
+
+	.my_exp .resp .para .para_font{
+	font-size: 6vw;
+	padding: 3vh;
+	}
+
+	.my_exp h1{
+	font-size: 6vw;
+	}
+
+	.container .my_project{
+	display: flex;
+	flex-direction: column;
+	}
+
+	.container .my_project button {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.container .my_project .icon_group {
+	display: flex;
+	flex-direction: column;
+	}
+	
+	.container .my_project .icon_group img{
+	height: auto;
+	width: 8vw;
+	padding: 1vw;
+	}
+
+	.my_project .para_font{
+	font-size: 5vw;
+	padding: 2vw;	
+	}
+
+	.container .my_project  h1{
+	font-size: 6vw;
+	}
+	
+	.container .my_project .my_work_image{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 2vh;
+	background-color: #B49F9D;
+	}
+
+	.my_work_image .my_work img{
+	width: 100%;
+	height: auto;
+	margin-top: 2vh;
+	}
+
+	.my_work_image .my_work_2 img{
+	width: 100%;
+	height: auto;
+	margin-top: 5vh;
+	}
+
+	
+
+}
+
+
